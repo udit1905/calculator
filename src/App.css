@@ -1,38 +1,153 @@
-.App {
-  text-align: center;
+body {
+    text-align: center;
+    background-color: #AEDEFC;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.master {
+    height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-1 {
+    height: 10%;
+    padding: 10px 0px;
+    font-size: 1.5rem;
+    background-color: #3D30A2;
+    color: white;
+    margin-bottom: 5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.body-1 {
+    margin-top: 10%;
+    font-size: 1.2rem;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    display: block;
 }
 
-.App-link {
-  color: #61dafb;
+.body-3 {
+    margin: auto;
+    font-size: 1.2rem;
+    height: 100%;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.option-btn {
+    background-color: #dee0e0;
+    border-radius: 5px;
+    width: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px auto;
+    font-size: 1.4rem;
+    display: block;
 }
+
+.footer-1 {
+    height: 6%;
+    padding: 10px 0px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3D30A2;
+    color: white;
+    margin-top: 3.4%;
+}
+
+.footer-2 {
+    height: 6%;
+    padding: 10px 0px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3D30A2;
+    color: white;
+    margin-top: 7.8%;
+}
+
+.next {
+    display: inline;
+    font-size: 1.4rem;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.next-btn {
+    background-color: #dee0e0;
+    border-radius: 5px;
+    width: 3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px auto;
+    font-size: 1.4rem;
+    display: inline;
+}
+
+.exit-btn {
+    background-color: #dee0e0;
+    border-radius: 5px;
+    width: 8%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px auto;
+    font-size: 1.4rem;
+    display: block;
+}
+
+.input-box {
+    border-radius: 5px;
+    width: 15%;
+    height: 20px;
+    padding: 5px 5px;
+    margin: 10px auto;
+}
+
+.lbl {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.input-field {
+    display: block;
+}
+
+.cal-btn {
+    width: 9.5%;
+    /* padding: 5px 8px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    background-color: #dee0e0;
+}
+
+.result-container {
+    width: 150px;
+    height: 30px;
+    margin: 10px 6px;
+    background-color: black;
+    color: white;
+}
+
+.input-box-2 {
+    border-radius: 5px;
+    width: 9%;
+    height: 20px;
+    padding: 5px 5px;
+    margin: 10px auto;
+    background-color: black;
+    color: white;
+}
+
+
+/* form {
+    align: center;
+} */
